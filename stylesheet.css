@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+    display: border-box;
+    
+}
+.maincontentbox{
+    width: 100%;
+    background: url(Slide1.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+.transparent{
+    background-color: transparent;
+}
+.containerbox{
+    margin-top: 50%;
+}
+.long-text{
+    font-size: 45px;
+    
+    font-weight: bolder;
+}
+.toendown{
+    padding-top: 20%;
+  }
+  .logo-line{
+    border-radius: 50px;
+    
+  }
+  .guerilla{
+    position: absolute;
+    top: 60px;
+    
+  }
+  .headylogo{
+    font-size: 25px;
+  }
+  .magicpattern { 
+    margin-top: 20%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M908 622.5Q838 745 745.5 858T511 936.5Q369 902 239 843T58 642Q7 500 75.5 371t190-173Q387 154 505 138t200 69q82 85 177.5 189T908 622.5Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%23444cf7%22 d=%22M908 622.5Q838 745 745.5 858T511 936.5Q369 902 239 843T58 642Q7 500 75.5 371t190-173Q387 154 505 138t200 69q82 85 177.5 189T908 622.5Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  }
+.secondpagecontentslider{
+    width: 100%;
+    background: url(Slide2.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bodering{
+  box-sizing: border-box;
+  box-shadow: 0 0 15px 0;
+}
+.topp{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.thirdpagecontentslider{
+  width: 100%;
+    ;
+    background: url(Slide3.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourthpagecontentslider{
+  width: 100%;
+  background: url(Slide4.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact{
+  width: 100%;
+  background: url(Slide5.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cornerround{
+  border-radius: 25px;
+}
+
+.imagesbox{
+  border-radius: 50px;
+}
+
+.second-main{
+  background: rgb(0,6,36);
+  background: linear-gradient(90deg, rgba(0,6,36,1) 52%, rgba(9,121,118,1) 52%, rgba(0,212,255,1) 100%);
+}
+.imagesbox{
+  border-radius: 50px;
+}
+.namebox,.emailbox,.mssgbox{
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 5%;
+  border: none;
+  outline: none;
+  
+}
+input{
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+
+  border: none;
+  outline: none;
+}
+textarea{
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+
+  border: none;
+  outline: none;
+}
+.submit{
+  margin-top: 15%;
+  width: 60%;
+  height: 50px;
+  border-radius: 10px;
+}
+.oppp{
+  color: #fff;
+}
+.imagesbox2{
+  border-radius: 150px;
+}
+.client-blox{
+  margin-top: 8%;
+}
+.nsbox{
+  margin-left: 5%;
+}
+.backki{
+  background-color: grey;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 50px;
+}
+  @media only screen and (max-width: 320px){
+    .maincontentbox{
+        width: 100vw;
+        height: 100vh;
+        background: url(Slide1.PNG);
+        background-position:right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: border-box;
+    }
+  }
+  .thirdpagecontentslider{
+    width: 100%;
+      background: url(Slide3.PNG);
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .contact{
+    width: 100%;
+    background: url(Slide5.PNG);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
